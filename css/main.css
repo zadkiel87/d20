@@ -1,0 +1,99 @@
+body {
+    background: #000;
+    color: #ddd;
+    -webkit-text-size-adjust: none;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    max-width: 100%;
+    overflow-y: hidden;
+}
+
+.counter {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    background-color: rgba(85, 86, 88, 0.2);
+}
+
+.counter:first-child {
+    top: 0;
+}
+
+.counter {
+    bottom: 0;
+}
+
+.counter:first-child {
+    -webkit-transform: rotate(-180deg);
+}
+
+.counter input {
+    border: 0;
+    font: 90px "Helvetica Neue", Helvetica;
+    text-align: center;
+    text-overflow: ellipsis;
+    padding: 2px 8px 4px 8px;
+    background: #2f3031;
+    color: #AFB2B5;
+    text-shadow: #0a0a0a 0 -1px 0;
+    font-weight: bold;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+    top: 50%;
+    height: 110px;
+    position: absolute;
+    margin-top: -50px;
+    width: 40%;
+    left: 28%;
+}
+
+.counter input.flip {
+    background-color: #16B557;
+    color: #000;
+}
+
+.minus, .plus {
+    font: 70px "Helvetica Neue", Helvetica;
+    color: #AFB2B5;
+    position: absolute;
+    height: 110px;
+    top: 50%;
+    margin-top: -45px;
+    width: 30%;
+}
+
+.counter .plus {
+    right: 0;
+}
+
+.counter .minus{
+    left: 0;
+}
+
+#reset, #flip{
+    text-align: center;
+    width: 40%;
+    margin-top: -14px;
+    position: absolute;
+    top: 50%;
+}
+
+#reset {
+    left: 15%;
+}
+
+#reset img{
+    height: 28px;
+    width: 24px;
+}
+
+#flip {
+    left: 45%;
+}
+
+#flip img {
+    height: 24px;
+    width: 24px;
+}

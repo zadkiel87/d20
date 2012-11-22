@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" manifest="counter.appcache">
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Counter</title>
+        <meta name="description" content="Count for me">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/hammer.js"></script>
+        <script src="js/jquery.hammer.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="counter">
+            <div class="plus">+</div>
+            <input value="20" type="text" pattern="[0-9]*"/>
+            <div class="minus">-</div>
+        </div>
+        <div class="counter">
+            <div class="minus">-</div>
+            <input value="20" type="text" pattern="[0-9]*"/>
+            <div class="plus">+</div>
+        </div>
+        <div id="reset"><img src="img/reload_24x28.png"/></div>
+        <div id="flip"><img src="img/dial_24x24.png"/></div>
+    </body>
+</html>

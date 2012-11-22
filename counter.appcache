@@ -1,0 +1,18 @@
+CACHE MANIFEST
+
+# Offline cache v1.0.2
+# html files
+index.html
+
+# css files
+css/main.css
+
+# js files
+js/jquery.min.js
+js/hammer.js
+js/jquery.hammer.js
+js/main.js
+
+# images
+img/reload_24x28.png
+img/dial_24x24.png
