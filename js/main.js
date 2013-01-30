@@ -72,12 +72,12 @@ $(function(){
     var topCounterView = new CounterView($(counters[0]));
     var bottomCounterView = new CounterView($(counters[1]));
 
-    $('#reset').hammer().bind('doubletap', function() {
+    $('#reset').hammer().bind('hold', function() {
         topCounterView.setValue(20);
         bottomCounterView.setValue(20);
     });
 
-    $('#flip').hammer().bind('doubletap', function() {
+    $('#flip').hammer().bind('hold', function() {
         switchFlip(100, topCounterView, bottomCounterView);
     });
 });
